@@ -1,0 +1,41 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# ── Virtual Environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# ── SECRET FILES – NEVER COMMIT THESE ───────────────────────────────────────
+.env
+*.env
+api_key.bt
+*.bt
+secrets.toml
+.streamlit/secrets.toml
+
+# ── Streamlit ────────────────────────────────────────────────────────────────
+.streamlit/
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Logs & temp ──────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
